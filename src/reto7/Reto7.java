@@ -12,8 +12,8 @@ public class Reto7 {
         TramoVia tramoA = new Asfalto(-4,0,0,-2,"coltan",80.3,true);
         TramoVia tramoB = new Asfalto(0,-2,2,-6,"rolt",50.3,false);
         TramoVia tramoC = new NoAsfalto(2,-6,6,-4,"piedra",0.3);
-        TramoVia tramoD = new NoAsfalto(6,-4,4,0,"piedra",0.3);
-        TramoVia tramoE = new NoAsfalto(4,4,8,4,"piedra",0.3);
+        TramoVia tramoD = new NoAsfalto(6,-4,4,0,"Arena",0.3);
+        TramoVia tramoE = new NoAsfalto(4,4,8,4,"Balastro",0.3);
         
         
         Carretera gaitan = new Carretera();

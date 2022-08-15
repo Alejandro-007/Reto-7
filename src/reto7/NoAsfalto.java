@@ -18,22 +18,8 @@ public class NoAsfalto extends TramoVia{
         return tipoMaterial;
     }
 
-    public void setTipoMaterial(int i) {
-        
-        switch (i){
-            case 1:
-                this.tipoMaterial = "Piedra";
-            break;
-            case 2:
-                this.tipoMaterial = "Arena";
-            break;
-            case 3:
-                this.tipoMaterial = "Balastro";
-            break;
-            default:
-                System.out.println("eleccion de material incorrecta por defecto Piedra");                
-                this.tipoMaterial = "Piedra";
-        }
+    public void setTipoMaterial(String tipoMaterial) {        
+       this.tipoMaterial = tipoMaterial;
     }
 
     public double getEspesor() {
